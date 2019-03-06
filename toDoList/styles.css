@@ -1,0 +1,53 @@
+#taskInput{
+    width: 25%;
+    text-align: center;
+    border-style: solid;
+}
+
+#addtask{
+    width: 5%;
+}
+
+li {
+    border: solid 1px black;
+    display: flex;
+    list-style: none;
+    margin-bottom: 15px;
+    position: relative;
+    background-color: lightgray;
+}
+
+li input {
+    margin-left: 15px;
+    margin-top: 18px;
+}
+
+li p {
+    margin-left: 20px;
+}
+
+li button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: black;
+    color: white;
+    height: 100%;
+}
+
+#pendingTasks {
+    width: 25%;
+    
+}
+
+.tasks {
+    width: 25%;
+    height: 8%;
+    text-align: left;
+    margin-top: 35px;
+    border-bottom: solid;
+}
+
+#completedTasks {
+    width: 25%;
+}
